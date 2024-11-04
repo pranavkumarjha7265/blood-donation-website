@@ -28,19 +28,7 @@ header {
     flex-wrap: wrap; 
 }
 
-.contact-info, .contact-form {
-    background-color: white;
-    padding: 2em;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 45%;
-    margin: 1em 0;
-    border-radius: 8px;
-    box-shadow: -5px -5px 15px;
-}
 
-.contact-info h2, .contact-form h2 {
-    color: #444;
-}
 
 .contact-info p, label {
     color: #555;
@@ -59,18 +47,7 @@ header {
     border-radius: 5px;
 }
 
-.contact-form button {
-    background-color: #28a745;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
 
-.contact-form button:hover {
-    background-color: #218838;
-}
 
 footer {
     background-color: #333;
@@ -104,21 +81,7 @@ footer {
             </div>
         </div>
 
-        <div class="contact-form">
-            <h2><marquee><i>#Send Us a Message:</i></marquee></h2>
-            <form action="submit_form.php" method="POST">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-
-                <button type="submit">Submit</button>
-            </form>
-        </div>
+        
     </section>
 
     <footer>
