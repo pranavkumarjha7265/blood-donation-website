@@ -6,42 +6,44 @@
     <title>Document</title>
     <style>
         fieldset{
-            border:2px solid black;
+            border:2px solid rgb(119, 115, 115);
             border-radius: 40px;
-            background-color: gray;
+            background-color: rgb(182, 164, 164);
             width:50px;
             margin: auto;
             border-width: 10px;
             box-shadow: -10px -10px 50px;
+            transition: transform 0.3s,box-shadow 0.3s;
+        }
+        body{
+            background-color: rgb(179, 169, 156);
+        }
+        fieldset:hover{
+            transform: translateY(10px);
         }
         #rh1{
             margin: auto;
         }
-        #submit:hover{
-            background-color: green;
-        }
-        #reset:hover{
-            background-color: blue;
-        }
+        
         #choose{
-            background-color: blueviolet;
+            border-radius: 5px;
         }
         #about{
-            background-color: rgb(239, 183, 194);
+            
             border-radius: 5px;
         }
         #name{
-            background-color: aqua;
+            
             border-radius: 3px;
             width:250px;
         }
         #email{
-            background-color: rgb(47, 74, 87);
+            
             border-radius: 3px;
             width:250px;
         }
         #number{
-            background-color: aquamarine;
+            
             border-radius: 3px;
             width:250px;
         }
