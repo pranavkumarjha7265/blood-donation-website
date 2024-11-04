@@ -82,13 +82,13 @@
                 return false;
             }
             // contact number of 10 digits
-            else if(b.length<10||b.length>10)
+            else if(c.length<10||c.length>10)
             {
                 alert("number should be of 10 digits only! please enter valid number")
                 return false;
             }
             // number is not a number
-            else if(isNaN(b))
+            else if(isNaN(c))
             {
                 alert("only numbers allowed! please enter valid number")
                 return false;
@@ -115,8 +115,8 @@
             <label for="number">number:</label> <br>
             <input type="number" name="mynumber" id="number" placeholder="number" required><br><br>
             gender: Male<input type="radio" id="gender" nmae="mygender">
-            Female<input type="radio" nmae="mygender">
-            other<input type="radio" name="mygender" required><br><br>
+            Female<input type="radio" id="gender" nmae="mygender">
+            other<input type="radio" id="gender" name="mygender" required><br><br>
             <lebel for="blood group">Blood Group</lebel><br>
             <select id="blood">
                 <option>select</option>
